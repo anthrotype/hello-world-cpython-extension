@@ -1,7 +1,8 @@
+#define Py_LIMITED_API
+
 #include <Python.h>
 #include <stdio.h>
 
-#define Py_LIMITED_API
 
 static PyObject* hello_world_print_hello_world(PyObject *self, PyObject *args)
 {
